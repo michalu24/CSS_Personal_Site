@@ -37,3 +37,13 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
 }
+
+#profile_picture{
+
+    height: 200px;
+    width: 200px;
+}
+.middle-container{
+
+    padding: 20px;
+}
