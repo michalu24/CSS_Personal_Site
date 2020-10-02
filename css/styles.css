@@ -1,0 +1,39 @@
+body{
+    background-color: #ecf4f3;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+}
+#topDiv{
+    margin-top: 0;
+    background-color: #a3d2ca;
+    padding-top: 100px;
+    position: relative;
+
+}
+.topCloud{
+    position: absolute;
+    top: 25px;
+    right: 300px;
+}
+
+
+.bottomCloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+.hello{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.a_programmer{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
