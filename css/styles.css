@@ -47,3 +47,13 @@ body{
 
     padding: 20px;
 }
+.skills{
+    text-align: center;
+    display: inline-block;
+    
+}
+.skills_table{
+    border-collapse: separate;
+    border-spacing: 150px 10px;
+
+}
