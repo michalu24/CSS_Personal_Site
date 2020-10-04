@@ -57,3 +57,27 @@ body{
     border-spacing: 150px 10px;
 
 }
+#javaPicture{
+    width: 200px;
+    height: 200px;
+}
+#gitLogo{
+    width: 200px;
+    height: 200px;
+}
+#sqlLogo{
+    width: 200px;
+    height: 200px;
+}
+#htmlLogo{
+    width: 200px;
+    height: 200px;
+}
+#cssLogo{
+    width: 200px;
+    height: 200px;
+}
+#jsLogo{
+    width: 200px;
+    height: 200px;
+}
