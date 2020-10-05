@@ -82,6 +82,21 @@ table{
 .profile{
     background-color: #197163;
     padding-top: 20px;
+    padding-bottom: 20px;
+    color: #faf3dd;
+}
+.bottom-container{
+    background-color: #197163;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #faf3dd;
+    margin-bottom: 0b;
+}
+.contact-me{
+    background-color: #197163;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #faf3dd;
 }
 
 .mountain{
@@ -89,4 +104,67 @@ table{
     padding-bottom: 0;
     position: relative;
     top: 5px;
+}
+
+h1{
+    font-family: 'Sansita Swashed', cursive;
+}
+h2{
+    font-family: 'Sansita Swashed', cursive;
+}
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    border: solid 0px;
+    border-radius: 10px;
+    background-color: #faf3dd;
+    width: 8rem;
+    height: 3rem;
+    line-height: 3.125rem;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: #a3d2ca;
+}
+
+a{
+
+    text-decoration: none;
+    color: #197163;
+
+}
+
+#li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #faf3dd;
+    border-radius: 6px;
+}
+#fb{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #faf3dd;
+    border-radius: 6px;
+}
+#gh{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #faf3dd;
+    border-radius: 100%;
 }
