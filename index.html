@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michal Urbanski</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="css/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michal Urbanski</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="css/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="topDiv">
-        <img src="images/cloud.png" alt="cloud" class="topCloud">
-        <h1 class="hello">I'm Michal</h1>
-        <p class="a_programmer">a programmer</p>
-        <img src="images/cloud.png" alt="cloud" class="bottomCloud">
-        <img src="images/mountain.png" alt="mountain">
-</div>
-<div class="middle-container">
+  <div id="topDiv">
+    <img src="images/cloud.png" alt="cloud" class="topCloud">
+    <h1 class="hello">I'm Michal</h1>
+    <p class="a_programmer">a programmer</p>
+    <img src="images/cloud.png" alt="cloud" class="bottomCloud">
+    <img src="images/mountain.png" alt="mountain" class="mountain">
+  </div>
+  <div class="middle-container">
     <div class="profile">
       <img src="images/Circle_Photo.png" alt="This is me" id="profile_picture">
       <h2>Hello 👋</h2>
@@ -25,35 +27,101 @@
     <hr>
     <div class="skills">
       <h1>My Skills</h1>
-      <img src="images/java.svg" alt="JavaLogo" id="javaPicture">
-      <h2>Java Programing</h2>
-      <p>I've started to learn java programming because i wanted to find
-        a job that makes an impact. I didn't just wanted to sit in the office
-        and plant my roots. I wanted to do something exciting. Something that
-        would make me proud of my achievments.
-      </p>
+      <table>
+        <tr>
+          <td>
+            <img src="images/java.svg" alt="JavaLogo" class="skillPicture">
+          </td>
+          <td>
+            <div class="skillInfo">
+              <h2>Java Programing</h2>
+              <p>I've started to learn java programming because i wanted to find
+                a job that makes an impact. I didn't just wanted to sit in the office
+                and plant my roots. I wanted to do something exciting. Something that
+                would make me proud of my achievments.
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="skillInfo">
 
-      <img src="images/git.svg" alt="gitLogo" id="gitLogo">
-      <h2>Version Control</h2>
-      <p>There would not be a true application without version control. So of course I had to learn it.</p>
+              <h2>Version Control</h2>
+              <p>There would not be a true application without version control. So of course I had to learn it.</p>
 
-      <img src="images/database.svg" alt="sqlLogo" id="sqlLogo">
-      <h2>SQL</h2>
-      <p>A proper man should at least know what SQL stands for. So of course I've managed to learn how to
-        write queries.
-      </p>
+            </div>
+          </td>
+          <td>
+            <img src="images/git.svg" alt="gitLogo" class="skillPicture">
+          </td>
+        </tr>
 
-      <img src="images/html-5.svg" alt="htmlLogo" id="htmlLogo">
-      <h2>HTML</h2>
-      <p>A true must have for every serious programmer. It is ovious that I've learned basic structure of the web page.</p>
+        <tr>
+          <td>
+            <img src="images/database.svg" alt="sqlLogo" class="skillPicture">
 
-      <img src="images/css.svg" alt="cssLogo" id="cssLogo">
-      <h2>CSS</h2>
-      <p>CSS acts like a wizard decorator for our web page. A must have in web development</p>
+          </td>
+          <td>
+            <div class="skillInfo">
+              
+                    <h2>SQL</h2>
+                    <p>A proper man should at least know what SQL stands for. So of course I've managed to learn how to
+                      write queries.
+                    </p>
 
-      <img src="images/javascript.svg" alt="jsLogo" id="jsLogo">
-      <h2>JavaScript</h2>
-      <p>JavaScript acts as a functionality wizard. It makes our webpage more atractive to use. Must have.</p>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="skillInfo">
+              <h2>HTML</h2>
+              <p>A true must have for every serious programmer. It is ovious that I've learned basic structure of the web page.
+              </p>
+              
+            </div>
+          </td>
+          <td>
+            <img src="images/html-5.svg" alt="htmlLogo" class="skillPicture">
+
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="images/css.svg" alt="cssLogo" class="skillPicture">
+            
+          </td>
+          <td>
+            <div class="skillInfo">
+              
+              <h2>CSS</h2>
+              <p>CSS acts like a wizard decorator for our web page. A must have in web development</p>
+
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="skillInfo">
+              <h2>JavaScript</h2>
+              <p>JavaScript acts as a functionality wizard. It makes our webpage more atractive to use. Must have.</p>
+
+
+            </div>
+          </td>
+          <td>
+
+            <img src="images/javascript.svg" alt="jsLogo" class="skillPicture">
+
+          </td>
+        </tr>
+
+      </table>
+
+
+
 
     </div>
     <hr>
@@ -63,16 +131,17 @@
       <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
       <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
     </div>
-</div>
-  
-  
+  </div>
+
+
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/">Twitter</a>
     <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
     <p>© 2018 Name Surname.</p>
   </div>
-  
-    
+
+
 </body>
+
 </html>

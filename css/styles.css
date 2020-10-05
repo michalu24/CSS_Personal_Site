@@ -26,16 +26,18 @@ body{
 
 }
 .hello{
-    margin-top: 0;
+    margin-top: 50px;
     margin-bottom: 0;
     font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+    font-size: 5.62em;
+    color: #faf3dd;
 }
 .a_programmer{
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 2.5rem;
+    color: #faf3dd;
 }
 
 #profile_picture{
@@ -45,7 +47,7 @@ body{
 }
 .middle-container{
 
-    padding: 20px;
+    padding: 0;
 }
 .skills{
     text-align: center;
@@ -57,27 +59,34 @@ body{
     border-spacing: 150px 10px;
 
 }
-#javaPicture{
+.skillPicture{
     width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+
+.skillInfo{
+    display: inline-block;
+    width: 18.75rem;
+    text-align: left;
     height: 200px;
 }
-#gitLogo{
-    width: 200px;
-    height: 200px;
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 25px 25px;
 }
-#sqlLogo{
-    width: 200px;
-    height: 200px;
+
+.profile{
+    background-color: #197163;
+    padding-top: 20px;
 }
-#htmlLogo{
-    width: 200px;
-    height: 200px;
-}
-#cssLogo{
-    width: 200px;
-    height: 200px;
-}
-#jsLogo{
-    width: 200px;
-    height: 200px;
+
+.mountain{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    top: 5px;
 }
